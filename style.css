@@ -1,0 +1,125 @@
+body {
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.large-banner {
+    border: 2px dashed black;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+.squares {
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#first-banner{
+    display: flex;
+    justify-content: flex-start;
+}
+
+li {
+    display: inline;
+    padding: 0 10px;
+}
+
+ul {
+    list-style: none;
+
+}
+
+header {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.left-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    border: 1px solid blue;
+}
+
+.right-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    border: 1px solid green;
+}
+
+main {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-splash{
+    border: 1px solid red;
+    height: 200px;
+    width: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+/* #square1 {
+    display: grid;
+    grid-row: 4;
+    grid-column: 1;
+}
+
+#square2 {
+    display: grid;
+    grid-row: 4;
+    grid-column: 2;
+}
+
+#square3 {
+    display: grid;
+    grid-row: 4;
+    grid-column: 3;
+}
+
+#square4 {
+    display: grid;
+    grid-row: 4;
+    grid-column: 4;
+} */
+/* 
+.second-splash{
+    border: 1px solid red;
+    margin: 0;
+    grid-column: span;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    clear: left;
+}
+
+.second-row {
+    border: 1px solid purple;
+    grid-row: 7;
+    grid-column: 1 /4;
+}
+
+.third-splash{
+    border: 1px solid red;
+    margin: 0;
+    grid-column: span;
+    grid-row-start: 8;
+    grid-row-end: 10;
+} */
