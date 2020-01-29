@@ -1,50 +1,16 @@
 body {
     margin: 0 auto;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-
-.large-banner {
-    border: 2px dashed black;
-    height: 100vh;
-    margin: 0 auto;
+    font-family: sans-serif;
+    font: 12pt;
     display: flex;
     flex-direction: row;
-    justify-content: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-
-.squares {
-    margin: 0 auto;
-    height: 150px;
-    width: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-#first-banner{
-    display: flex;
-    justify-content: flex-start;
-}
-
-li {
-    display: inline;
-    padding: 0 10px;
-}
-
-ul {
-    list-style: none;
-
-}
-
 header {
     border: 1px solid black;
     display: flex;
     flex-direction: row;
-
 }
 
 .left-nav {
@@ -61,22 +27,100 @@ header {
     border: 1px solid green;
 }
 
+ul {
+    list-style: none;
+
+}
+
+li {
+    display: inline;
+    padding: 0 10px;
+}
+
 main {
     border: 1px solid black;
     display: flex;
     justify-content: space-around;
 }
 
-.first-splash{
+/* ------ learned about breaks here:https://tobiasahlin.com/blog/flexbox-break-to-new-row/  ------*/
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.large-banner {
+    border: 2px dashed black;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+.squares {
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.under-text {
+    border: 2px solid chartreuse;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 75px;
+    width: 150px;
+}
+
+#first-banner{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+
+.first-splash {
     border: 1px solid red;
-    height: 200px;
-    width: auto;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+
+}
+
+.second-splash {
+    border: 1px solid purple;
+    height: 100%;
+    width: 100%;
     margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: stretch;
+    position: relative;
 }
 
+.third-splash {
+    border: 1px solid pink;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    position: relative;
+}
+
+
+
+/* ------- grid...well that didn't work ------ */
 /* #square1 {
     display: grid;
     grid-row: 4;
