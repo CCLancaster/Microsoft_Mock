@@ -51,10 +51,11 @@ main {
 
 .large-banner {
     border: 2px dashed black;
-    height: 100vh;
+    height: 750px;
+    width: 100%;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     position: relative;
 }
@@ -78,7 +79,6 @@ main {
 }
 
 #first-banner{
-    display: flex;
     justify-content: center;
     position: absolute;
 }
@@ -86,8 +86,8 @@ main {
 
 .first-splash {
     border: 1px solid red;
-    height: 100%;
-    width: 100%;
+    height: 900px;
+    width: 900px;
     margin: 0;
     display: flex;
     flex-direction: row;
@@ -98,22 +98,22 @@ main {
 
 .second-splash {
     border: 1px solid purple;
-    height: 100%;
-    width: 100%;
+    height: 900px;
+    width: 900px;
     margin: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: stretch;
     position: relative;
 }
 
 .third-splash {
     border: 1px solid pink;
-    height: 100%;
-    width: 100%;
+    height: 900px;
+    width: 900px;
     margin: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: stretch;
     position: relative;
 }
