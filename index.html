@@ -5,117 +5,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Microsoft Mock-up</title>
-
+    <style>
+    
+    @media screen (min-width: 600px) and (max-width: 900px) {
+                .first-splash
+            }
+    
+    </style>
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <header>
-        <div class="left-nav">
-            <ul>
-                <li> 
+    <div class="wrapper">
+        <div class="topRow">
+                <div class="menuItem" id="logo"> 
                     <img src="/Users/monty/SEI29/unit1/homework/homework_5/Microsoft_Mock/img/kitten-logo.png" alt="kitten-logo">
-                </li>
-                <li>Cat Box</li>
-                <li>Windows</li>
-                <li>Scratch Post</li>
-                <li>Laser</li>
-                <li>Treats</li>
-                <li>Cuddles</li>
-            </ul>
+                </div>
+                <div class="menuItem textLink">Cat Box</div>
+                <div class="menuItem textLink">Windows</div>
+                <div class="menuItem textLink">Scratch Post</div>
+                <div class="menuItem textLink">Laser</div>
+                <div class="menuItem textLink">Treats</div>
+                <div class="menuItem textLink">Cuddles</div>
+                <div class="menuItem" id="menuSpace"><!-- blank space --></div>
+                <div class="menuItem rightSide">All Kittens v</div>
+                <div class="menuItem rightSide">Search</div>
+                <div class="menuItem rightSide">Cart</div>
+                <div class="menuItem signIn">Sign In</div>
         </div>
-        <div class="right-nav">
-            <ul>
-                <li>All Kittens</li>
-                <li>Search</li>
-                <li>Cart</li>
-                <li>Sign In</li>
-            </ul>
-        </div>
-    </header>
-
-    <main>
-        <div class="first-splash">
-            <div class="large-banner">
-                <img id="first-banner" src="/Users/monty/SEI29/unit1/homework/homework_5/Microsoft_Mock/img/first-banner.png" alt="kittens-in-a-basket">
+    
+/* 
+        <div class="splashes">
+            <div class="first-splash">
+                <div class="large-banner">
+                    <img id="first-banner" src="/Users/monty/SEI29/unit1/homework/homework_5/Microsoft_Mock/img/first-banner.png" alt="kittens-in-a-basket">
+                </div>
+                <div class="break"></div>
+                <div class="small-squares" class="first-row">
+                    <div class="squares" id="square1">
+                        <img src="/Users/monty/SEI29/unit1/homework/homework_5/Microsoft_Mock/img/kitten1.png" alt="kitten">
+                    </div>
+                    <div class="under-text">    
+                        <h1>Meowing</h1>
+                        <p>Walk on keyboard and jump on human.</p>
+                        <a href="https://www.mentalfloss.com/article/578211/cat-facts">Learn More</a>
+                    </div>
+                    <div class="squares" id="square2">
+                        <img src="/Users/monty/SEI29/unit1/homework/homework_5/Microsoft_Mock/img/kitten2.png" alt="kitten">
+                    </div>
+                    <div class="under-text">    
+                        <h1>Wowing</h1>
+                        <p>Somehow manage to catch a bird.</p>
+                        <a href="https://www.mentalfloss.com/article/578211/cat-facts">Learn More</a>
+                    </div>
+                    <div class="squares" id="square3">
+                        <img src="/Users/monty/SEI29/unit1/homework/homework_5/Microsoft_Mock/img/kitten3.png" alt="kitten">
+                    </div>
+                    <div class="under-text">     
+                        <h1>Chowing</h1>
+                        <p>Get scared by sudden appearance of cucumber.</p>
+                        <a href="https://www.mentalfloss.com/article/578211/cat-facts">Learn More</a>
+                    </div>
+                    <div class="squares" id="square4">
+                        <img src="/Users/monty/SEI29/unit1/homework/homework_5/Microsoft_Mock/img/kitten4.png" alt="kitten">
+                    </div>
+                    <div class="under-text">     
+                        <h1>Slippers</h1>
+                        <p>Meowzer tickle my belly at your own peril.</p>
+                        <a href="https://www.mentalfloss.com/article/578211/cat-facts">Learn More</a>
+                    </div>
+                </div>
             </div>
             <div class="break"></div>
-            <div class="small-squares" class="first-row">
-                <div class="squares" id="square1">
-                    <img src="/Users/monty/SEI29/unit1/homework/homework_5/Microsoft_Mock/img/kitten1.png" alt="kitten">
+            <div class="second-splash">
+                <div class="large-banner">
+                    <img src="/Users/monty/SEI29/unit1/homework/homework_5/Microsoft_Mock/img/second-banner.png" alt="mom-and-kitten-sleeping">
                 </div>
-                <div class="under-text">    
-                    <h1>Meowing</h1>
-                    <p>Walk on keyboard and jump on human.</p>
-                    <a href="https://www.mentalfloss.com/article/578211/cat-facts">Learn More</a>
+                <div class="break"></div>
+                <div class="small-squares" class="second-row">
+                    <div class="squares" id="square5">
+                        <img src="/Users/monty/SEI29/unit1/homework/homework_5/Microsoft_Mock/img/kitten5.png" alt="kitten">
+                        <h1>Meowl</h1>
+                        <p>Relentlessly pursues moth.</p>
+                        <a href="https://www.factretriever.com/cat-facts">Pet Me</a>
+                    </div>
+                    <div class="squares" id="square6">
+                        <img src="/Users/monty/SEI29/unit1/homework/homework_5/Microsoft_Mock/img/kitten6.png" alt="kitten">
+                        <h1>Hairball</h1>
+                        <p>Cough furball into food bowl for owner. </p>
+                        <a href="https://www.factretriever.com/cat-facts">Pet Me</a>
+                    </div>
+                    <div class="squares"id="square8" >
+                        <img src="/Users/monty/SEI29/unit1/homework/homework_5/Microsoft_Mock/img/kitten7.png" alt="kitten">
+                        <h1>Whiskers</h1>
+                        <p>Carefully drink from water glass.</p>
+                        <a href="https://www.factretriever.com/cat-facts">Pet Me</a>
+                    </div>
+                    <div class="squares" id="square9">
+                        <img src="/Users/monty/SEI29/unit1/homework/homework_5/Microsoft_Mock/img/kitten8.png" alt="kitten">
+                        <h1>Purrrrfect</h1>
+                        <p>Knocks items off shelf.</p>
+                        <a href="https://www.factretriever.com/cat-facts">Pet Me</a>
+                    </div>
                 </div>
-                <div class="squares" id="square2">
-                    <img src="/Users/monty/SEI29/unit1/homework/homework_5/Microsoft_Mock/img/kitten2.png" alt="kitten">
-                </div>
-                <div class="under-text">    
-                    <h1>Wowing</h1>
-                    <p>Somehow manage to catch a bird.</p>
-                    <a href="https://www.mentalfloss.com/article/578211/cat-facts">Learn More</a>
-                </div>
-                <div class="squares" id="square3">
-                    <img src="/Users/monty/SEI29/unit1/homework/homework_5/Microsoft_Mock/img/kitten3.png" alt="kitten">
-                </div>
-                <div class="under-text">     
-                    <h1>Chowing</h1>
-                    <p>Get scared by sudden appearance of cucumber.</p>
-                    <a href="https://www.mentalfloss.com/article/578211/cat-facts">Learn More</a>
-                </div>
-                <div class="squares" id="square4">
-                    <img src="/Users/monty/SEI29/unit1/homework/homework_5/Microsoft_Mock/img/kitten4.png" alt="kitten">
-                </div>
-                <div class="under-text">     
-                    <h1>Slippers</h1>
-                    <p>Meowzer tickle my belly at your own peril.</p>
-                    <a href="https://www.mentalfloss.com/article/578211/cat-facts">Learn More</a>
-                </div>
-            </div>
-        </div>
-        <div class="break"></div>
-        <div class="second-splash">
-            <div class="large-banner">
-                <img src="/Users/monty/SEI29/unit1/homework/homework_5/Microsoft_Mock/img/second-banner.png" alt="mom-and-kitten-sleeping">
             </div>
             <div class="break"></div>
-            <div class="small-squares" class="second-row">
-                <div class="squares" id="square5">
-                    <img src="/Users/monty/SEI29/unit1/homework/homework_5/Microsoft_Mock/img/kitten5.png" alt="kitten">
-                    <h1>Meowl</h1>
-                    <p>Relentlessly pursues moth.</p>
-                    <a href="https://www.factretriever.com/cat-facts">Pet Me</a>
-                </div>
-                <div class="squares" id="square6">
-                    <img src="/Users/monty/SEI29/unit1/homework/homework_5/Microsoft_Mock/img/kitten6.png" alt="kitten">
-                    <h1>Hairball</h1>
-                    <p>Cough furball into food bowl for owner. </p>
-                    <a href="https://www.factretriever.com/cat-facts">Pet Me</a>
-                </div>
-                <div class="squares"id="square8" >
-                    <img src="/Users/monty/SEI29/unit1/homework/homework_5/Microsoft_Mock/img/kitten7.png" alt="kitten">
-                    <h1>Whiskers</h1>
-                    <p>Carefully drink from water glass.</p>
-                    <a href="https://www.factretriever.com/cat-facts">Pet Me</a>
-                </div>
-                <div class="squares" id="square9">
-                    <img src="/Users/monty/SEI29/unit1/homework/homework_5/Microsoft_Mock/img/kitten8.png" alt="kitten">
-                    <h1>Purrrrfect</h1>
-                    <p>Knocks items off shelf.</p>
-                    <a href="https://www.factretriever.com/cat-facts">Pet Me</a>
+            <div class="third-splash">
+                <div class="large-banner">
+                    <img src="/Users/monty/SEI29/unit1/homework/homework_5/Microsoft_Mock/img/third-banner.png" alt="kittens-running">
                 </div>
             </div>
-        </div>
-        <div class="break"></div>
-        <div class="third-splash">
-            <div class="large-banner">
-                <img src="/Users/monty/SEI29/unit1/homework/homework_5/Microsoft_Mock/img/third-banner.png" alt="kittens-running">
-            </div>
-        </div>
-    </main>
+        </div> */
+    </div>
 </body>
 </html>
 
