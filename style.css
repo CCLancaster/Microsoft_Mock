@@ -2,155 +2,66 @@
     margin: 0 auto;
 }
 
-.wrapper {
-    border: 1px solid black;
-    width: 1300px;
+body {
+    font-size: 20px;
+    font-family: sans-serif;
 }
 
 div {
     text-align: center;
 }
 
-.topRow {
+.wrapper {
+    border: 5px solid purple;
+    width: 1200px;
+}
+
+#menu {
+    padding: 10px;
+}
+
+.row {
     display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+
+#menuSpace {
+    width: 150px;
 }
 
 .menuItem:hover {
     text-decoration: underline;
 }
 
-#menuSpace {
-    width: 150px;
+.blankRow {
+    height: 40px;
 }
 
-/* main {
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-around;
+.largeBanner {
+    object-fit: cover;
 }
 
-/* ------ learned about breaks here:https://tobiasahlin.com/blog/flexbox-break-to-new-row/  ------*/
-/* .break {
-    flex-basis: 100%;
-    height: 0;
+.copy {
+    width: 256px;
+    text-align: left;
+  
 }
 
-.large-banner {
-    border: 2px dashed black;
-    height: 750px;
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
+@media screen and (max-width: 1400px) {
+    .rightSide {
+        display: none;
+    }
 }
-
-.squares {
-    margin: 0 auto;
-    height: 150px;
-    width: 150px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+@media screen and (max-width: 860px) {
+    .textLink {
+        display: none;
+    }
+    .rightSide {
+        display: none;
+    }
+    .allKittens {
+        display: none;
+    }
 }
-
-.under-text {
-    border: 2px solid chartreuse;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 75px;
-    width: 150px;
-}
-
-#first-banner{
-    justify-content: center;
-    position: absolute;
-}
-
-
-.first-splash {
-    border: 1px solid red;
-    height: 900px;
-    width: 900px;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    position: relative;
-
-}
-
-.second-splash {
-    border: 1px solid purple;
-    height: 900px;
-    width: 900px;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
-    position: relative;
-}
-
-.third-splash {
-    border: 1px solid pink;
-    height: 900px;
-    width: 900px;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
-    position: relative;
-} */ 
-
-
-
-/* ------- grid...well that didn't work ------ */
-/* #square1 {
-    display: grid;
-    grid-row: 4;
-    grid-column: 1;
-}
-
-#square2 {
-    display: grid;
-    grid-row: 4;
-    grid-column: 2;
-}
-
-#square3 {
-    display: grid;
-    grid-row: 4;
-    grid-column: 3;
-}
-
-#square4 {
-    display: grid;
-    grid-row: 4;
-    grid-column: 4;
-} */
-/* 
-.second-splash{
-    border: 1px solid red;
-    margin: 0;
-    grid-column: span;
-    grid-row-start: 5;
-    grid-row-end: 7;
-    clear: left;
-}
-
-.second-row {
-    border: 1px solid purple;
-    grid-row: 7;
-    grid-column: 1 /4;
-}
-
-.third-splash{
-    border: 1px solid red;
-    margin: 0;
-    grid-column: span;
-    grid-row-start: 8;
-    grid-row-end: 10;
-} */
